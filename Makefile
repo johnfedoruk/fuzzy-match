@@ -1,6 +1,7 @@
 CC=g++
 CFLAGS=-Wall -std=c++11 -O3
-OBJECTS=main.o
+OBJECTS=main.o \
+		models/word.o
 TARGET=run
 ## DIRS
 SRC_DIR=src
