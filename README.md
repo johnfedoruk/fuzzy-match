@@ -2,6 +2,14 @@
 
 Fuzzy matching calculated using Levenshtein distance.
 
+## Running
+
+Running the application using the shell script to search for the `<target>` word with a maximum Levenshtein `<distance>` (int). The `<distance>` is optional, and defaults to 1 (perfect match).
+
+```bash
+sh run.sh <target> <distance>
+```
+
 ## Building
 
 Compiling from source
